@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Cursos</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock head %}
+
+{% block content %}
+    <div id="wrapper">
+        <h1>Conteúdos</h1>
+    </div>
+
+    <section class="cards">
+        {% for item in items %}
+            <div class="card" id="{{item.id}}">
+                <div class="image">
+                    <img src="{{item.img}}" alt="Curso {{item.name}}">
+                </div>
+                <div class="title">
+                    <p class="title">{{item.title}}</p>
+                </div>
+                <div class="info">
+                    <p class="modules">{{item.modules}}</p>
+                    <p class="price">{{item.price}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+
+    <script src="/desafio.js"></script>
+{% endblock content %}

@@ -1,0 +1,75 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1522844931788-513a2ed46b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Pedro",
+      "email": "pedro@gmail.com",
+      "birth": 925430400000,
+      "gender": "M",
+      "blood": "O1",
+      "weight": "70",
+      "height": "165"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1544133782-b62779394064?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Flávio",
+      "email": "flavio@hotmail.com",
+      "birth": 325641600000,
+      "gender": "M",
+      "blood": "AB0",
+      "weight": "112",
+      "height": "170"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1581122583802-9e2afdc5ab7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Fernanda",
+      "email": "fernanda@yahoo.com",
+      "birth": 578275200000,
+      "gender": "F",
+      "blood": "A0",
+      "weight": "65",
+      "height": "172"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Emanuel",
+      "avatar_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "birth": 925430400000,
+      "gender": "M",
+      "services": "Academia, Musculação, Boxe, Corrida",
+      "created_at": 1593442981727
+    },
+    {
+      "id": 2,
+      "name": "Murillo Silva",
+      "avatar_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "birth": 661910400000,
+      "gender": "M",
+      "services": "Crossfit",
+      "created_at": 1593443014543
+    },
+    {
+      "id": 4,
+      "name": "Alisson",
+      "avatar_url": "https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "birth": 600307200000,
+      "gender": "M",
+      "services": "Academia",
+      "created_at": 1593531153477
+    },
+    {
+      "id": 5,
+      "name": "Henrique",
+      "avatar_url": "https://images.unsplash.com/photo-1592632789004-57d4354f2499?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "birth": 378691200000,
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1593564375714
+    }
+  ]
+}
